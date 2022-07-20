@@ -21,9 +21,9 @@ server.on('request', (req, res) => {
         res.write('<body>');
         res.write('<p>Hi Gabby! Here are some questions for you:</p>');
         res.write('<ul>');
-        res.write('<li>What do you <strong>like the most</strong> about your working at Digimondo?</li>');
-        res.write('<li>If you had a friend who is looking for a job with JavaScript would you advice them to apply at Digimondo? Do you mind sharing <strong>why?</strong></li>');
+        res.write('<li>What do you <strong>like most</strong> about your working at Regiocom/Digimondo?</li>');
         res.write('<li>What do you think I need to learn in order to succeed at this job?</li>');
+        res.write('<li>What growth opportunities do you see long term for a Junior JavaScript Developer in Regiocom/Digimondo</li>');
         res.write('</ul>');
         res.write('</body>');
         res.write('</html>');
